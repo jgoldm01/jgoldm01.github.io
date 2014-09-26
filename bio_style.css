@@ -1,0 +1,27 @@
+body {
+	background-image: url("gotMap.jpg");
+}
+
+p.backstory{
+	font-weight: bold;
+	border-color: lightblue;
+	font-size: large;
+}
+
+p.young {
+	font-style: italic;
+}
+
+p.dark {
+	border-style: outset;
+	border-color: green;
+	border-width: 6px;
+}
+
+p.light {
+	color: red;
+}
+
+p.explination{
+	background: #F0E68C;
+}
