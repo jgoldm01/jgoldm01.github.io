@@ -16,3 +16,26 @@ function greeting() {
 
 window.onload = greeting;
 
+$('#snakeClick').click(function(e) {
+    $('#snakePic').lightbox_me({
+        centered: true, 
+        onLoad: function() { 
+            $('#snakePic').find('input:first').focus()
+            }
+        });
+    e.preventDefault();
+});
+
+$('#tetrisClick').click(function(e) {
+    $('#tetrisPic').lightbox_me({
+        centered: true, 
+        onLoad: function() { 
+            $('#tetrisPic').find('input:first').focus()
+            }
+        });
+    e.preventDefault();
+});
+
+// $("#lighter").hide();
+
+// $("#lighter").lightbox_me();

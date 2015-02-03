@@ -105,8 +105,9 @@ ul {
 .selfie {
 	width: 400px;
 	-webkit-clip-path: circle(110px at 200px 110px);
-	-o-clip-path: circle(110px at 200px 110px);
 	-moz-clip-path: circle(110px at 200px 110px);
+	-o-clip-path: circle(110px at 200px 110px);
+	clip-path: circle(110px at 200px 110px);
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -127,6 +128,21 @@ ul {
 	color: #FFA5A5;
 }
 
+.textLink a{
+	color: #FFFFFF;
+	text-decoration: none;
+	/*font-style: italic;*/
+	padding-right: 20px;
+}
+
+.textLink i {
+	padding-right: 3px;
+}
+
+#snakePic, #tetrisPic {
+	display: none;
+}
+
 .beast {
 	padding-top: 50px;
 	text-align: center;
@@ -135,6 +151,9 @@ ul {
 
 .beast img{
 	-webkit-clip-path: ellipse(175px 125px at 50% 50%);
+	-moz-clip-path: ellipse(175px 125px at 50% 50%);
+	-o-clip-path: ellipse(175px 125px at 50% 50%);
+	-clip-path: ellipse(175px 125px at 50% 50%);
 	width:75%;
 }
 
