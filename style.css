@@ -143,7 +143,7 @@ ul {
 	padding-right: 3px;
 }
 
-#snakePic, #tetrisPic, #sudokuPic {
+#snakePic, #tetrisPic, #sudokuPic, #beastSpecs {
 	display: none;
 }
 
@@ -161,6 +161,23 @@ ul {
 	width:75%;
 }
 
+#beastSpecs {
+	background-image: -webkit-linear-gradient(left, #000000, #6D6D6D 21%, #000000); 
+  background-image: -moz-linear-gradient(left, #000000, #6D6D6D 21%, #000000);
+  background-color: black;
+	color: white;
+}
+
+table#beastSpecs {
+	border-collapse: separate;
+  border-spacing: 5px;
+  border: none;
+}
+
+#beastSpecs td, #beastSpecs th {
+  padding: 3px;
+  border: none;
+}
 
 .footer {
 	height: 60px;

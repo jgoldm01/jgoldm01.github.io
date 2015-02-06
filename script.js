@@ -46,6 +46,16 @@ $('#tetrisClick').click(function(e) {
     e.preventDefault();
 });
 
+$('#beastSpecsClick').click(function(e) {
+    $('#beastSpecs').lightbox_me({
+        centered: true, 
+        onLoad: function() { 
+            $('#beastSpecs').find('input:first').focus()
+            }
+        });
+    e.preventDefault();
+});
+
 
 // $("#lighter").hide();
 
