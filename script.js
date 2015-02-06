@@ -16,6 +16,16 @@ function greeting() {
 
 window.onload = greeting;
 
+$('#sudokuClick').click(function(e) {
+    $('#sudokuPic').lightbox_me({
+        centered: true, 
+        onLoad: function() { 
+            $('#snakePic').find('input:first').focus()
+            }
+        });
+    e.preventDefault();
+});
+
 $('#snakeClick').click(function(e) {
     $('#snakePic').lightbox_me({
         centered: true, 
@@ -35,6 +45,7 @@ $('#tetrisClick').click(function(e) {
         });
     e.preventDefault();
 });
+
 
 // $("#lighter").hide();
 
