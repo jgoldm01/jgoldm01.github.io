@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css"  href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Candal" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Days+One">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Varela" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Playfair+Display" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Kameron" />
+</head>	
+	<img class="welcomeImg" src="mt4.jpg">
+	<div class="welcomeImg">
+		<div class="nameWords">
+		<div class="noName" id="greeting">
+			<p> GOOD EVENING, MY NAME IS </p>
+		</div>
+			<br/>
+			<p class="yesName"> JEREMY GOLDMAN </p>
+			<br/>
+			<p class="noName"> PROGRAMMER, EXPLORER & PHILOSOPHER </p>
+		</div>
+	</div>
+	<ul id="nav">
+		<li><a href="index.html">Home</a></li>	
+		<li><a href="#aboutMe">About</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="resume.pdf">Resume</a></li>
+	</ul>
+
+<body>
+	<div class="body">
+	<div class="wrap">
+	<a name="aboutMe"></a>
+		<div class="col leftCol"> 
+			ABOUT ME
+		</div>
+		<div class="col centerCol">
+			Having graduated from Tufts University a semester early with a double major in Computer Science and Economics, I find myself well versed in the arts of critical thinking and problem solving. 
+			My focus is back-end development across the tech stack, with expertise in algorithm development and systems integration.  I also design user interfaces for web and software applications, and dabble in computer security.  I look forward to a life of building interesting products and working on new, experimental technologies. 
+
+			<br/><br/>When I am not being a 'screen wizard' - my euphemistic term for a software engineer - you will often find me on my bicycle. I am also a committed musician. My favorite musical activity is sight reading the piano, yet I am currently teaching myself the guitar and exploring music production software. 
+		</div>
+		<div class="col">
+			<img src="selfie1.jpg" alt="selfie" class="selfie">
+		</div>
+	</div>
+	<div class="wrap">
+	<a name="projects"></a>
+		<div class="col leftCol"> 
+			PROJECTS
+		</div>
+		<div class="col centerCol">
+ 
+
+
+
+	<div class="listTitle"> Independent works: </div>
+	<p class="subListTitle">completed in my free time for intellectual curiosity or for GLORY!!</p>
+		<ul class="indieWorks">
+
+			<li> <span class="projectTitle">Sudoku Solver:</span> Recursively finds a solution to any sudoku board, or alerts the user if no solution is possible. Written in Python, execute EGG file with the command: python sudokuSolver.egg
+			<div class="textLink">
+				<a href="#" id="sudokuClick">
+					<i class="fa fa-picture-o"></i>Screenshot</a>
+				</a>
+				<span id="sudokuPic">
+					<img src="sudokuSolver.png" alt="sudoku solver screenshot">
+				</span>
+				<a href="sudokuSolver.egg" download><i class="fa fa-download"></i>Download EGG</a>
+			</div>
+
+			</li>
+			<li> <span class="projectTitle">Website for Psychologist:</span> Designed and implemented professional website for Dr. Lisa Goldman PHD, LLC. 
+			<div class="textLink">
+				<a href="http://drlisagoldman.github.io" target="_blank">
+				<i class="fa fa-external-link"></i>Visit Site</a>
+			</div>
+			</li>
+
+			<li> <span class="projectTitle">Snake:</span> Playable snake game, written in java and built using the Eclipse IDE. 
+			<div class="textLink">
+				<a href="#" id="snakeClick">
+					<i class="fa fa-picture-o"></i>Screenshot</a>
+				</a>
+				<span id="snakePic">
+					<img src="snakeScreenshot.png" alt="snake screenshot">
+				</span>
+				<a href="snake.jar" download><i class="fa fa-download"></i>Download JAR</a>
+			</div>
+			</li>
+			
+			<li> <span class="projectTitle">Tetris:</span> Playable tetris game with easy, medium, and hard difficulties. To Run the game, download below, open terminal to the enclosing directory and type: java -jar tetris.jar
+			<div class="textLink">
+				<a href="#" id="tetrisClick">
+					<i class="fa fa-picture-o"></i>Screenshot</a> 
+				</a>
+				<span id='tetrisPic'>
+					<img src="tetrisScreenShot.png" alt="tetris screenshot">
+				</span>
+				<a href="tetris.jar" download><i class="fa fa-download"></i>Download JAR</a>
+			</div>
+			</li>
+		</ul>	
+
+	<div class="listTitle"> College assignments: </div>
+ <p class="subListTitle"> completed in Tufts University classes, too numerous to mention all </p>
+		<ul class="indieWorks">
+			
+		  <li> <span class="projectTitle"> Boggle Solver: </span> generates boggle board, checks user input with a trie dictionary of calculated solutions and scores accordingly
+		  </li>
+			<li> <span class="projectTitle"> Image Compressor: </span> compresses each 4-pixel block of an image into a 32bit integer. Images can be decompressed as well
+			</li>
+			<li> <span class="projectTitle"> Packet Alarm: </span> runnable alarm system that reads TCP and UDP packets to detect Xmas and Null port scans, can analyze web server log for NMAP scans and shellcode insertion. 
+			</li>
+			<li> <span class="projectTitle">Ostracon: </span> tool that allows distributed voting over the Internet via the use of web sockets. The collecting and measurement of votes is customizable by the developer, to allow greater diversity of use. 
+			</li>
+			<li> <span class="projectTitle"> Swolemate: </span> Friend finder application for workout buddies. Implemented user tolkens,  and connected a heroku server to angularJS framework. 
+			</li> 
+		</ul>
+
+		</div>
+		<div class="col beast">
+			<img src="beast.png" alt="Beast, the computer I built">
+			<p> Beast, the computer I built last summer </p>
+			<div class="textLink">
+				<a href="#" id="beastSpecsClick">
+					<i class="fa fa-picture-o"></i>View Specs</a> 
+				</a>
+			</div>
+			<table id="beastSpecs">	
+				<tr>
+					<td>CPU</td>
+					<td>Intel Core i5-4690K processor, 3.5 GHz (LGA 1150)</td>
+				</tr>
+				<tr>
+					<td>Motherboard</td>
+					<td>GA-Z97X-GAMING (LGA 1150)</td>
+				</tr>
+				<tr>
+					<td>RAM</td>
+					<td>2 8GB sticks</td>
+				</tr>
+				<tr>
+					<td>Storage</td>
+					<td>512GB SSD, 2TB Seagate external hard drive</td>
+				</tr>
+				<tr>
+					<td>GPU</td>
+					<td>AMD Radeon R9 290</td>
+				</tr>
+				<tr>
+					<td>Keyboard</td>
+					<td>Logitech G105</td>
+				</tr>
+				<tr>
+					<td>Mouse</td>
+					<td>Logitech G400s</td>
+				</tr>
+				<tr>
+					<td>Power</td>
+					<td>SeaSonic G-750</td>
+				</tr>
+				<tr>
+					<td>Monitor</td>
+					<td>ASUS VN248H-P 1080P 23.8"</td>
+				</tr>
+				<tr>
+					<td>Tower</td>
+					<td>Thor V2 Black</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="col leftCol"> 
+			<!-- WHY ME? -->
+		</div>
+	</div>
+
+	</div>
+
+	<div class="footer">
+	<div class="leftFooter">
+		jeremygoldmanmd@gmail.com
+	</div>
+	<div class="rightFooter">
+		<a class="iconContainer fb" href="https://www.facebook.com/jeremymaxgoldman"><img src="facebook.png" alt="my facebook page"></a> 
+		<a class="iconContainer ld" href="http://www.linkedin.com/in/jeremygoldmancodesmith">
+		<img src="linkedin.png" alt="my linkedin page"></a>
+		<a class="iconContainer gh" href="https://github.com/jgoldm01">
+		<img src="github.png" alt="my github page"></a>
+	</div>
+	</div>
+
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	<script src="jquery.lightbox_me.js"></script>
+	<script src="script.js"></script>
+</html>
